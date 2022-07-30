@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+}
+
+
+/* NAV-BAR */
+
+.nav-bar{
+    background-color: #fa9a41;
+}
+
+.nav-bar a:first-of-type{
+    margin: 0;
+    font-size: 3vw;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2vw;
+    margin-right: 40vw;
+    display: inline-block;
+    color: black;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: 1.75vw;
+    margin-right: 2.5vw;
+    font-family: "Roboto Mono", sans-serif;
+    color: white;
+    transition: color 0.5s ease;
+}
+
+.nav-bar a:hover{
+    color: black;
+}
+
+/* HEADER */
+
+
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("https://www.adorama.com/alc/wp-content/uploads/2020/10/professional-photographer-outdoor-feature.jpg");
+    height: 40vw;
+    background-size: cover;
+    background-position: top;
+    overflow-y: hidden;
+}
+
+.header h1{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 5vw;
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid white;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header p{
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vw;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 2vw;
+    padding: 0.5vw;
+    background-color: #e38d2b;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2vw;
+    border-radius: 1vw;
+    transition: background-color 0.5s;
+}
+
+.header a:hover{
+    background-color: orange;
+}
+
+.header-links{
+    text-align: center;
+}
+
+
+.header .sub-text{
+    margin-top: 14vw;
+}
+
+#next-js{
+    color: orange;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+
+
+/* WRITE FORM */
+
+.write-form{
+    text-align: center;
+    margin-top: 4vw;
+}
+
+.write-form h1{
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 2vw;
+}
+
+.write-form input{
+    width: 18vw;
+    padding: 0.25vw;
+    font-size: 1.25vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.write-form form{
+    background-color: #faa543;
+    display: inline-block;
+    padding: 1vw 2vw;
+    border-radius: 0.5vw;
+}
+
+.write-form textarea{
+    font-size: 1.25vw;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+.write-form button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.25vw;
+    font-size: 1.25vw;
+    padding: 0.25vw;
+    font-family: "Roboto Mono", sans-serif;
+}
+
+
+/* BLOG POSTS */
+
+.posts h1{
+    font-size: 3vw;
+    font-family: "Roboto Mono", sans-serif;
+    text-align: center;
+}
+
+.blog-items{
+    text-align: center;
+}
+
+.blog-item h1{
+    font-size: 2vw;
+    font-family: "Montserrat", sans-serif;
+    width: 30vw;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-item p{
+    font-size: 1.5vw;
+    font-family: "Quicksand", sans-serif;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.blog-item a{
+    text-decoration: none;
+    font-size: 1vw;
+    font-family: "Roboto Mono", sans-serif;
+    display: inline-block;
+    margin-bottom: 2.5vw;
+}
